@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.UpdateproductNameController">
+   <children>
+      <Text fill="#1bc66b" layoutX="227.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Products">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="43.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Product ID :" />
+      <Button layoutX="43.0" layoutY="336.0" mnemonicParsing="false" onAction="#update" text="Update" />
+      <Text layoutX="37.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ener Name of Product :" />
+      <TextField fx:id="name" layoutX="195.0" layoutY="238.0" />
+      <Button fx:id="button" layoutX="304.0" layoutY="336.0" mnemonicParsing="false" onAction="#close" text="Cancel" />
+      <ComboBox fx:id="id" layoutX="180.0" layoutY="122.0" prefWidth="150.0" />
+      <ImageView fitHeight="370.0" fitWidth="316.0" layoutX="356.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/pictures/productupdatesm.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ChoiceBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.AddCustomerController">
+   <children>
+      <Text layoutX="261.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Customer" wrappingWidth="164.5302734375">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="19.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Full Name:" />
+      <TextField fx:id="name" layoutX="200.0" layoutY="111.0" promptText="FullName" />
+      <Text layoutX="14.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Email ID :" />
+      <TextField fx:id="emailid" layoutX="200.0" layoutY="165.0" promptText="Email ID" />
+      <Text layoutX="8.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Phone Number :" />
+      <TextField fx:id="number" layoutX="200.0" layoutY="235.0" promptText="Phone Number" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="25.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter City :" />
+      <TextField fx:id="city" layoutX="200.0" layoutY="296.0" promptText="City" />
+      <Text layoutX="10.0" layoutY="376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Password :" />
+      <TextField fx:id="pswd" layoutX="200.0" layoutY="359.0" promptText="Password" />
+      <Button layoutX="19.0" layoutY="404.0" mnemonicParsing="false" onAction="#nextpage" text="Save" />
+      <Button fx:id="button" layoutX="249.0" layoutY="404.0" mnemonicParsing="false" onAction="#closewindow" text="Cancel" />
+      <ImageView fitHeight="212.0" fitWidth="329.0" layoutX="416.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/pictures/Dollarphotoclub_72963857.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="499.0" layoutY="417.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/pictures/Find-Customers.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

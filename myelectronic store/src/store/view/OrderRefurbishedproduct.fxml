@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.OrderRefurbishedproductController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fill="#064c57" layoutX="194.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Refurbished Product" wrappingWidth="296.0703125">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="combo" layoutX="232.0" layoutY="202.0" prefHeight="39.0" prefWidth="169.0" />
+      <Text layoutX="114.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity" />
+      <TextField fx:id="custID" layoutX="232.0" layoutY="137.0" />
+      <Button layoutX="232.0" layoutY="353.0" mnemonicParsing="false" onAction="#Buy" text="Buy" />
+      <Button fx:id="button" layoutX="324.0" layoutY="353.0" mnemonicParsing="false" onAction="#close" text="Cancel" />
+      <Text layoutX="114.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Product :" />
+      <TextField fx:id="qid" layoutX="232.0" layoutY="271.0" />
+      <Text layoutX="114.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your ID :" />
+      <ImageView fitHeight="231.0" fitWidth="273.0" layoutX="407.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/pictures/depositphotos_39517813-Refurbished-stamp.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

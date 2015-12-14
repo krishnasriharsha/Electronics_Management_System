@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.DeleteCustomerController">
+   <children>
+      <AnchorPane layoutX="-76.0" layoutY="-92.0" prefHeight="320.0" prefWidth="457.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="205.0" layoutY="14.0" text="DELETE CUSTOMER" underline="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="76.0" text="Enter Customer Email Id :" />
+            <Button layoutX="31.0" layoutY="123.0" mnemonicParsing="false" onAction="#del" text="Delete" />
+            <ComboBox fx:id="Memberid" layoutX="412.0" layoutY="72.0" prefWidth="150.0" />
+            <Button fx:id="button" layoutX="467.0" layoutY="123.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+            <ImageView fitHeight="344.0" fitWidth="531.0" layoutX="42.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Desktop/pictures/delete1.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

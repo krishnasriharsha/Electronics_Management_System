@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.CustomerNavigate">
+   <children>
+      <Label fx:id="lblHomePage" layoutX="190.0" layoutY="14.0" prefHeight="35.0" prefWidth="300.0" text="ADMIN HOME PANEL" textAlignment="CENTER" textFill="#157557">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnMembers" layoutX="12.0" layoutY="89.0" mnemonicParsing="false" onAction="#memberNav" text="Add Customer" />
+      <Button fx:id="btnRooms" layoutX="8.0" layoutY="151.0" mnemonicParsing="false" onAction="#view" text="View Customers" />
+      <Label fx:id="lblFunctionalities" layoutX="36.0" layoutY="75.0" prefHeight="27.0" prefWidth="79.0" textFill="#141414" underline="true">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="120.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="12.0" layoutY="540.0" mnemonicParsing="false" onAction="#update" text="Update Customer" />
+      <Button layoutX="587.0" layoutY="89.0" mnemonicParsing="false" onAction="#addProduct" text="Add Product" />
+      <Button layoutX="583.0" layoutY="151.0" mnemonicParsing="false" onAction="#viewProduct" text="View Products" />
+      <Button layoutX="15.0" layoutY="467.0" mnemonicParsing="false" onAction="#del" text="Delete Customer" />
+      <Button layoutX="581.0" layoutY="467.0" mnemonicParsing="false" onAction="#deleteProduct" text="Delete Product" />
+      <Button layoutX="579.0" layoutY="540.0" mnemonicParsing="false" onAction="#updateProductName" text="Update Product" />
+      <ImageView fitHeight="400.0" fitWidth="450.0" layoutX="115.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/pictures/istock_000015633944xsmall.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

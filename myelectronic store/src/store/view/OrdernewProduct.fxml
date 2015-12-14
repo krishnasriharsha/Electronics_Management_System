@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.OrdernewproductController">
+   <children>
+      <Text fill="#08543e" layoutX="257.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Purchase Product">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="115.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter  ID :" />
+      <TextField fx:id="custID" layoutX="245.0" layoutY="173.0" />
+      <Text layoutX="115.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Product :" />
+      <ComboBox fx:id="combo" layoutX="245.0" layoutY="244.0" prefWidth="150.0" />
+      <Button layoutX="245.0" layoutY="352.0" mnemonicParsing="false" onAction="#purchase" text="Purchase" />
+      <Button fx:id="button" layoutX="377.0" layoutY="352.0" mnemonicParsing="false" onAction="#close" text="Cancel" />
+      <TextField fx:id="qid" layoutX="246.0" layoutY="304.0" />
+      <Text layoutX="124.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity" wrappingWidth="64.000004529953" />
+      <ImageView fitHeight="234.0" fitWidth="247.0" layoutX="441.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/pictures/Thank-You.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

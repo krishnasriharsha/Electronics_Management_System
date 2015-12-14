@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.UpdateCustomerController">
+   <children>
+      <AnchorPane prefHeight="339.0" prefWidth="432.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="279.0" layoutY="27.0" text="CUSTOMER UPDATE" textFill="#23a43b" underline="true">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="28.0" layoutY="142.0" text=" Customer ID :" />
+            <Label layoutX="28.0" layoutY="203.0" text=" Full Name :" />
+            <TextField fx:id="name" layoutX="205.0" layoutY="199.0" promptText="Full Name" />
+            <Label layoutX="16.0" layoutY="426.0" text=" Email ID :" />
+            <TextField fx:id="city" layoutX="205.0" layoutY="257.0" promptText="City" />
+            <Button layoutX="29.0" layoutY="503.0" mnemonicParsing="false" onAction="#updateAction" text="Update" />
+            <Text layoutX="28.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" City :" />
+            <Text layoutX="13.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     Phone " />
+            <TextField fx:id="number" layoutX="205.0" layoutY="326.0" promptText="Phone Number" />
+            <TextField fx:id="emailid" layoutX="204.0" layoutY="422.0" promptText="Email ID" />
+            <ComboBox fx:id="id" layoutX="204.0" layoutY="138.0" prefWidth="150.0" />
+            <Button fx:id="button" layoutX="279.0" layoutY="503.0" mnemonicParsing="false" onAction="#close" text="Cancel" />
+            <ImageView fitHeight="261.0" fitWidth="399.0" layoutX="367.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Desktop/pictures/homepage-background-1024x682.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

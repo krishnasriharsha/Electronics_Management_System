@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.DeleteproductController">
+   <children>
+      <Text fill="#0a6d6f" layoutX="154.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Product" wrappingWidth="200.78125">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="20.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Product ID :" />
+      <Button layoutX="41.0" layoutY="151.0" mnemonicParsing="false" onAction="#del" text="Delete" />
+      <Button fx:id="button" layoutX="378.0" layoutY="151.0" mnemonicParsing="false" onAction="#close" text="Cancel" />
+      <ComboBox fx:id="Productid" layoutX="319.0" layoutY="81.0" prefWidth="150.0" />
+      <ImageView fitHeight="273.0" fitWidth="456.0" layoutX="26.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/pictures/1363996483825,0.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

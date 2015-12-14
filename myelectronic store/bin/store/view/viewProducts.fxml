@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="store.controller.ViewProductsController">
+   <children>
+      <VBox fx:id="vbox" layoutX="37.0" layoutY="239.0" prefHeight="200.0" prefWidth="426.0" />
+      <ImageView fitHeight="161.0" fitWidth="381.0" layoutX="116.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/pictures/CrossFit-Product-Review.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
